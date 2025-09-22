@@ -19,7 +19,6 @@ Explanation:
 You will always stop at index 3 because nums[3] = 0, cannot move further.
 
 ---
-
 Approach (Greedy):
 - Maintain `maxIndex`, the farthest index you can reach so far.
 - Traverse the array:
