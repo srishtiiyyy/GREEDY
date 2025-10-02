@@ -53,7 +53,7 @@ int main() {
     cout << "Enter end times: ";
     for (int i = 0; i < n; i++) cin >> end[i];
 
-    cout << "Maximum number of non-overlapping meetings: " 
+    cout << "Maximum number of non-overlapping meeting " 
          << maxMeetings(start, end) << endl;
 
     return 0;
